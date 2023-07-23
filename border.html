@@ -2,8 +2,36 @@
 <html lang="en">
 <head>
     <title>Border part2</title>
+    <style>
+        h1.part1{
+            /*
+            Here we style each section separately.
+            */
+            text-align: center;
+            background-color:lightgray;
+            border-color: red;
+            border-radius: 30px;
+            border-bottom-width:8px;
+            border-bottom-style:dashed;
+            border-left-style:dashed;
+        }
+
+
+        h1.part2{
+          
+            border: 5px teal dashed;
+            
+              /*
+            But in this section we give all the style in one line. 
+            5px is border width.
+            teal is border color.
+            dashed is border style.
+            */
+        }
+    </style>
 </head>
 <body>
-    
+    <h1 class="part1">Sajad Nowroozi</h1>
+    <h1 class="part2">Sajad Nowroozi</h1>
 </body>
 </html>
